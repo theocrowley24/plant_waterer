@@ -1,0 +1,9 @@
+[Unit]
+Description=Theo's plant waterer.
+
+[Service]
+Type=simple
+ExecStart=/tmp/plant_waterer
+
+[Install]
+WantedBy=multi-user.target
